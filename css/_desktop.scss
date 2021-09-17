@@ -1,0 +1,130 @@
+@media (min-width: 1024px)
+{
+    header{
+        background-size: 100% 77%;
+        height: 600px;
+        
+        .imag{
+            height: 230px;
+            width: 230px;
+            top: 57%;
+            left: 100px;
+        }
+        
+        .tag{
+            display: none;
+        }
+
+        .button{
+            top: 82%;
+            right: 60px;
+            h4{
+                font-size: 16px;
+                padding: 15px 40px;
+            }
+        }
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+
+        .title-card{
+            display: flex;
+            flex-direction: column;
+            
+            .tc-cont{
+                background-color: white;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: row;
+                width: 80%;
+                margin-left: 30px;
+                margin-top: 30px;
+                height: 94px;
+                padding-left:25px;
+
+                .tc-cont-inf{
+                    width: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    h1{
+                        font-size: 35px;
+                    }
+
+                    h3{
+                        font-size: 15px;
+                    }
+                    
+                }
+                
+                .tc-but{
+                    width: 30%;
+                    display: flex;
+                    justify-content: center;
+                    h4{
+                        align-self: center;
+                        margin: 0;
+                        width: max-content;
+                        height: max-content;
+                        padding: 6px 9px;
+                        background-color: $primary;
+                        font-size: 13px;
+                        color: white;
+                        border-radius: 4px;
+                      }
+                }
+            }
+            .footer-alt{
+                display: flex;
+                width: 80%;
+                margin-left: 30px;
+                margin-top: 3px;
+                h4{
+                margin-right: 80px;
+                font-size: 10px;
+                font-weight: bold;
+                color: $secondary;
+                }
+            }
+          }
+        .link-box{
+            margin-left: 0px;
+            height: 94px;
+            padding-left:25px;
+
+            .icon{
+                img{
+                    width: 70px;
+                    height: 70px;
+                  }
+            }
+
+            .content{ 
+                margin-left: 15px;
+                h3{
+                  font-size: 32px;
+                  font-weight: normal;
+                }
+          
+                h5{
+                  font-size: 16px;
+                  font-weight: lighter;
+                }
+              }
+        }
+    }
+
+    footer{
+        display: none;
+        .f-container{        
+            h4{
+              
+              font-size: 12px;
+            }
+          }
+    }
+}
