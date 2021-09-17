@@ -12,18 +12,18 @@ This is an open source Link Tree Component. The component itself is in its first
 
 &nbsp;
 
-![Image](refs/mobile.JPG)
+![Image](refs/mobile.jpg)
 
 
 ### Tablet version
 
 &nbsp;
-![Image](refs/tab.JPG)
+![Image](refs/tab.jpg)
 
 ### Desktop version
 
 &nbsp;
-![Image](refs/desktop.JPG)
+![Image](refs/desktop.jpg)
 
 &nbsp;
 
