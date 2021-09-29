@@ -1,0 +1,40 @@
+.box{
+    transition: transform 0.3s;
+    width: 87%;
+    height: 60px;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    
+    .logo-2-pos{
+        margin-left: 18px;
+        display: flex;
+        img{
+            align-self: center;
+        }
+    }
+
+    .cont{
+        align-self: center;
+        margin-left: 17px;
+        h1{
+            font-size: 20px;
+        }
+        
+        h2{
+            margin-top: 5px;
+            font-size: 12px;
+            font-weight: 500;
+            color: $primary;
+        }
+    }
+}
+
+.box:hover{
+    background: #fffaff;
+    box-shadow: 3px 3px rgb(189, 189, 189);
+    transform: scale(1.05, 1.1);
+    cursor: pointer;
+}

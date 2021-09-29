@@ -1,72 +1,16 @@
-@media (min-width: 768px)
-{
-    header{
-        height: 450px;
-        
-        .imag{
-            height: 130px;
-            width: 130px;
-            top: 45%;
-        }
-        
-        .tag{
-            left: 60px;
-            h1{
-                font-size: 45px;
-            }
-
-            h3{
-                font-size: 16px;
-            }
-        }
-
-        .button{
-            h4{
-                font-size: 16px;
-                padding: 13px 25px;
-            }
-        }
+@media only screen and (min-width: 768px){
+    
+    body{
+        background-color: rgb(185, 185, 185);
     }
-
     .container{
+        background-color: rgb(236, 235, 235);
+        width: 80%;
+        box-shadow: 2px 2px rgb(170, 170, 170);
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
 
-        .link-box{
-            margin-left: 60px;
-            height: 84px;
-            padding-left:5px;
 
-            .icon{
-                img{
-                    width: 60px;
-                    height: 60px;
-                  }
-            }
-
-            .content{ 
-                margin-left: 15px;
-                h3{
-                  font-size: 32px;
-                  font-weight: normal;
-                }
-          
-                h5{
-                  font-size: 16px;
-                  font-weight: lighter;
-                }
-              }
-        }
     }
-
-    footer{
-        .f-container{        
-            h4{
-              
-              font-size: 12px;
-            }
-          }
-    }
-
-
-
-
 }
